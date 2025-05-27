@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   # Gerekli bağımlılıklar
   s.dependency 'Capacitor'
-  s.dependency 'GoogleSignIn'
+  s.dependency 'GoogleSignIn', '= 6.2.4'
   s.dependency 'GTMAppAuth'
   s.dependency 'GTMSessionFetcher'
 end
